@@ -10,7 +10,8 @@ class AppSettingsPlus {
     AppSettingsType type = AppSettingsType.settings,
     bool asAnotherTask = false,
   }) {
-    return AppSettingsPlatform.instance.openAppSettings(type: type, asAnotherTask: asAnotherTask);
+    return AppSettingsPlatform.instance
+        .openAppSettings(type: type, asAnotherTask: asAnotherTask);
   }
 
   /// Open an application settings panel.
