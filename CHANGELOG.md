@@ -1,3 +1,7 @@
+## 5.2.0+1
+
+- fix: Attribute can only be applied to declarations, not types error after package update (#232)
+
 ## 5.2.0
 
 - Add Swift Package Manager support.

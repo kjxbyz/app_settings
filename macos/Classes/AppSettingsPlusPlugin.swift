@@ -3,11 +3,11 @@ import FlutterMacOS
 import AppKit
 import StoreKit
 
-public class AppSettingsPlugin: NSObject, FlutterPlugin {
+public class AppSettingsPlusPlugin: NSObject, FlutterPlugin {
     public static func register(with registrar: FlutterPluginRegistrar) {
-        let channel = FlutterMethodChannel(name: "com.spencerccf.app_settings/methods", binaryMessenger: registrar.messenger)
+        let channel = FlutterMethodChannel(name: "com.kjxbyz.app_settings_plus/methods", binaryMessenger: registrar.messenger)
         
-        registrar.addMethodCallDelegate(AppSettingsPlugin(), channel: channel)
+        registrar.addMethodCallDelegate(AppSettingsPlusPlugin(), channel: channel)
     }
 
     public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {

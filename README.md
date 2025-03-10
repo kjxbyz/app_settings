@@ -1,6 +1,6 @@
-# app_settings
+# app_settings_plus
 
-[![pub package](https://img.shields.io/pub/v/app_settings.svg)](https://pub.dartlang.org/packages/app_settings)
+[![pub package](https://img.shields.io/pub/v/app_settings_plus.svg)](https://pub.dartlang.org/packages/app_settings_plus)
 
 A Flutter plugin for opening iOS and Android phone settings from an app.
 
@@ -11,16 +11,16 @@ A Flutter plugin for opening iOS and Android phone settings from an app.
 
 ## Installation
 
-First, add `app_settings` as a [dependency in your pubspec.yaml file](https://pub.dev/packages/app_settings).
+First, add `app_settings_plus` as a [dependency in your pubspec.yaml file](https://pub.dev/packages/app_settings_plus).
 
 ```dart
-flutter pub add app_settings
+flutter pub add app_settings_plus
 ```
 
-Next, import 'app_settings.dart' into your Dart code.
+Next, import 'app_settings_plus.dart' into your Dart code.
 
 ```dart
-import 'package:app_settings/app_settings.dart';
+import 'package:app_settings_plus/app_settings_plus.dart';
 ```
 
 ### iOS
@@ -43,7 +43,7 @@ See also [Flutter SPM integration](https://docs.flutter.dev/packages-and-plugins
 
 ## Usage
 
-Open the settings of the application using `AppSettings.openAppSettings()`.
+Open the settings of the application using `AppSettingsPlus.openAppSettings()`.
 By default, `AppSettingsType.settings` is used as the type, which opens the general application settings.
 If the given type is not supported on the current platform, the general settings are opened instead.
 
@@ -52,7 +52,7 @@ If the given type is not supported on the current platform, the general settings
 ```dart
 Widget build(BuildContext context) {
   return ElevatedButton(
-    onPressed: () => AppSettings.openAppSettings(type: AppSettingsType.location),
+    onPressed: () => AppSettingsPlus.openAppSettings(type: AppSettingsType.location),
     child: const Text('Open Location Settings'),
   );
 }
@@ -61,12 +61,12 @@ Widget build(BuildContext context) {
 ### Android Q Settings Panels
 
 To open a Settings Panel on Android Q and higher,
-call `AppSettings.openAppSettingsPanel()` with a given type.
+call `AppSettingsPlus.openAppSettingsPanel()` with a given type.
 
 ```dart
 Widget build(BuildContext context) {
   return ElevatedButton(
-    onPressed: () => AppSettings.openAppSettingsPanel(AppSettingsPanelType.volume),
+    onPressed: () => AppSettingsPlus.openAppSettingsPanel(AppSettingsPanelType.volume),
     child: const Text('Open Volume Settings Panel'),
   );
 }

@@ -1,4 +1,4 @@
-group 'com.spencerccf.app_settings'
+group 'com.kjxbyz.app_settings_plus'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -31,7 +31,7 @@ apply plugin: 'kotlin-android'
 android {
     compileSdkVersion 33
 
-    namespace 'com.spencerccf.app_settings'
+    namespace 'com.kjxbyz.app_settings_plus'
     
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8

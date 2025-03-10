@@ -1,4 +1,4 @@
-package com.spencerccf.app_settings
+package com.kjxbyz.app_settings_plus
 
 import android.app.Activity
 import android.app.admin.DevicePolicyManager
@@ -16,7 +16,7 @@ import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
 
 /** AppSettingsPlugin */
-class AppSettingsPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
+class AppSettingsPlusPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
   /// The Activity that will be used to start intents
   /// when the settings are opened as another task.
   private var activity: Activity? = null
@@ -28,7 +28,7 @@ class AppSettingsPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
   private lateinit var channel : MethodChannel
 
   override fun onAttachedToEngine(flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "com.spencerccf.app_settings/methods")
+    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "com.kjxbyz.app_settings_plus/methods")
     channel.setMethodCallHandler(this)
   }
 

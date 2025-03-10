@@ -1,7 +1,7 @@
-import '../app_settings.dart';
+import '../app_settings_plus.dart';
 import '../app_settings_platform_interface.dart';
 
-class AppSettings {
+class AppSettingsPlus {
   /// Open the app settings.
   ///
   /// If [type] is supported, opens a specific app settings panel.

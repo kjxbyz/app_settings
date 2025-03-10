@@ -5,8 +5,8 @@
 import FlutterMacOS
 import Foundation
 
-import app_settings
+import app_settings_plus
 
 func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
-  AppSettingsPlugin.register(with: registry.registrar(forPlugin: "AppSettingsPlugin"))
+  AppSettingsPlusPlugin.register(with: registry.registrar(forPlugin: "AppSettingsPlusPlugin"))
 }
