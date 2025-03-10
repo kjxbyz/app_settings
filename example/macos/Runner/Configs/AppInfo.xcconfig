@@ -8,7 +8,7 @@
 PRODUCT_NAME = app_settings_example
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.spencerccf.appSettingsExample
+PRODUCT_BUNDLE_IDENTIFIER = com.kjxbyz.appSettingsPlusExample
 
 // The copyright displayed in application information
-PRODUCT_COPYRIGHT = Copyright © 2023 com.spencerccf. All rights reserved.
+PRODUCT_COPYRIGHT = Copyright © 2023 com.kjxbyz. All rights reserved.
