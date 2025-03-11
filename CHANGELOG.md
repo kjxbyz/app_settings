@@ -1,3 +1,7 @@
+## 5.2.0+2
+
+- Set app_settings_plus.podspec version from pubspec.yaml
+
 ## 5.2.0+1
 
 - fix: Attribute can only be applied to declarations, not types error after package update (#232)
