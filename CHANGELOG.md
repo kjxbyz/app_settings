@@ -1,3 +1,7 @@
+## 5.3.0-dev.0
+
+- Add harmonyOS Next support
+
 ## 5.2.0+2
 
 - Set app_settings_plus.podspec version from pubspec.yaml
