@@ -1,4 +1,4 @@
-package com.spencerccf.app_settings_example
+package com.kjxbyz.app_settings_plus_example
 
 import io.flutter.embedding.android.FlutterActivity
 
