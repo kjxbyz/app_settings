@@ -1,5 +1,5 @@
-name: app_settings_example
-description: Demonstrates how to use the app_settings plugin.
+name: app_settings_plus_example
+description: Demonstrates how to use the app_settings_plus plugin.
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none'
