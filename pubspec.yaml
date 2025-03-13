@@ -5,7 +5,6 @@ homepage: https://github.com/kjxbyz/app_settings_plus
 
 environment:
   sdk: ">=2.19.0 <4.0.0"
-  flutter: ">=3.7.0"
 
 dependencies:
   flutter:
